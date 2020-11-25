@@ -1,0 +1,26 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-image:linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 38%, 100% 0%, 100% 100%, 0% 100%);
+    width:100%;
+        h2{
+            margin-bottom: 0.9%;
+            font-size: 2rem;
+            margin-top: 5%;
+            color: white;
+            font-family: sans-serif;
+
+            
+        }
+}
+
+.conoce{
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+
