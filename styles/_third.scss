@@ -16,3 +16,39 @@
     width: 45%;
     font-size: 1.1em;
 }   
+
+
+@media (max-width:768px){
+    .third{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .secret{
+        width: auto;
+    }
+    .celular{
+        width: 95%;
+        margin-top:-15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .where{
+        width: 94%;
+        h2{
+          font-size: xx-large;
+          margin-bottom: 1%;
+         }
+         p{
+             font-size: medium;
+         }
+
+    }
+}
+
+@media (max-width:320px){
+    .secret{
+        width: 95%;
+        margin-top: -15%;
+    }
+}

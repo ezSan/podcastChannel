@@ -33,12 +33,6 @@ body {
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  body {
-    width: 100%;
-  }
-}
-
 header {
   top: 0;
   left: 0;
@@ -153,6 +147,15 @@ p {
         justify-content: space-around;
     margin-top: 8%;
   }
+  h1 {
+    width: 90%;
+  }
+  p {
+    width: 90%;
+  }
+  input {
+    width: 90%;
+  }
 }
 
 .second h2 {
@@ -198,6 +201,22 @@ p {
   min-height: 1200px;
 }
 
+@media (max-width: 768px) {
+  .second {
+    -webkit-clip-path: polygon(0 6%, 100% 2%, 100% 94%, 0 98%);
+            clip-path: polygon(0 6%, 100% 2%, 100% 94%, 0 98%);
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    min-height: 1300px;
+  }
+  .media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .third {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,6 +239,47 @@ p {
 .where {
   width: 45%;
   font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+  .third {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .secret {
+    width: auto;
+  }
+  .celular {
+    width: 95%;
+    margin-top: -15%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .where {
+    width: 94%;
+  }
+  .where h2 {
+    font-size: xx-large;
+    margin-bottom: 1%;
+  }
+  .where p {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 320px) {
+  .secret {
+    width: 95%;
+    margin-top: -15%;
+  }
 }
 
 .fourth {
@@ -251,6 +311,48 @@ p {
   margin-left: 18%;
   font-size: 3em;
   padding: 0.9%;
+}
+
+@media (max-width: 768px) {
+  .fourth {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .fourth h2 {
+    font-size: xx-large;
+    margin-left: 3%;
+  }
+  .primeras {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .primeras img {
+    width: 100%;
+  }
+  .segundas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .segundas img {
+    width: 100%;
+  }
 }
 
 .final {
@@ -297,6 +399,53 @@ p {
 
 .final .div {
   margin-top: 7.9%;
+}
+
+@media (max-width: 768px) {
+  .final {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .iconos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  .caja1,
+  .caja2,
+  .caja3,
+  .caja4 {
+    margin: 2%;
+  }
+  .caja1 p,
+  .caja2 p,
+  .caja3 p,
+  .caja4 p {
+    font-size: small;
+    text-align: center;
+  }
+  .caja1 p .icon,
+  .caja2 p .icon,
+  .caja3 p .icon,
+  .caja4 p .icon {
+    width: auto;
+  }
 }
 
 .news {

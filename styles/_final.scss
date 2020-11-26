@@ -1,39 +1,65 @@
-.final{
-    margin-top: 2%;
-       h2{
-        margin-left: 18%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
+.final {
+  margin-top: 2%;
+  h2 {
+    margin-left: 18%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
 }
 
-.iconos{
+.iconos {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+.caja1 {
+  width: 18.1%;
+  height: 3.3%;
+}
+.caja2 {
+  width: 18.1%;
+  height: 3.3%;
+}
+.caja3 {
+  width: 18.1%;
+  height: 3.3%;
+}
+.caja4 {
+  width: 18.1%;
+  height: 3.3%;
+}
+
+.final .div {
+  margin-top: 7.9%;
+}
+
+@media (max-width: 768px) {
+  .final {
     display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-}
+    flex-direction: column;
+  }
+  .iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
 
-.caja1{
-    width: 18.1%;
-    height: 3.3%;
- 
+  .caja1,
+  .caja2,
+  .caja3,
+  .caja4 {
+    margin: 2%;
+        p {
+        font-size: small;
+         text-align: center;
+         .icon{
+             width: auto;
+         }
+    }
+  }
 }
-.caja2{
-    width: 18.1%;
-    height: 3.3%;
-}
-.caja3{
-    width: 18.1%;
-    height: 3.3%;
-}
-.caja4{
-    width: 18.1%;
-    height: 3.3%;
-}
-
-.final .div{
-    margin-top: 7.9%;
-}
-

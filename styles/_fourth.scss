@@ -24,3 +24,32 @@
     padding: 0.9%;
 }   
 
+@media (max-width:768px){
+    .fourth{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        h2{
+          font-size: xx-large;
+          margin-left: 3%;
+        }   
+    }
+    .primeras {
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            width: 100%;            
+        }
+    }
+    .segundas {
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            width: 100%;            
+        }
+    }
+}
+
+
+       
