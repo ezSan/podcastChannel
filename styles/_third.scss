@@ -7,7 +7,7 @@
 }
 
 .celular{
-    width: 45%;
+    width: 100%;
     margin-top: -10%;
     z-index: 12;
 }
@@ -25,7 +25,7 @@
         justify-content: center;
     }
     .secret{
-        width: auto;
+        max-width: 50%;;
     }
     .celular{
         width: 95%;
