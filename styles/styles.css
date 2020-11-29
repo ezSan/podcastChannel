@@ -254,44 +254,50 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .secret {
-    max-width: 50%;
-  }
-  .celular {
-    width: 95%;
-    margin-top: -15%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .where {
-    width: 100%;
-  }
-  .where h2 {
-    font-size: xx-large;
-    margin-bottom: 1%;
-    width: 90%;
-    text-align: justify;
-    margin-left: 5%;
-  }
-  .where p {
-    width: 90%;
-    font-size: 14px;
-    margin: auto;
-    line-height: 22px;
-    margin-bottom: 4%;
-  }
-  .where .textofinal {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
+}
+
+.celular {
+  width: 95%;
+  margin-top: -15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secret {
+  width: 100%;
+}
+
+.where {
+  width: 100%;
+}
+
+.where h2 {
+  font-size: xx-large;
+  margin-bottom: 1%;
+  width: 90%;
+  text-align: justify;
+  margin-left: 5%;
+}
+
+.where p {
+  width: 90%;
+  font-size: 14px;
+  margin: auto;
+  line-height: 22px;
+  margin-bottom: 4%;
+}
+
+.where .textofinal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 320px) {

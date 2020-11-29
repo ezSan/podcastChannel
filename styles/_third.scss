@@ -23,15 +23,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    .secret{
-        max-width: 50%;;
-    }
+    }    }
     .celular{
         width: 95%;
         margin-top:-15%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .secret{
+        width: 100%;
     }
     .where{
         width: 100%;
@@ -58,7 +58,7 @@
             }
      
     }
-}
+
 
 @media (max-width:320px){
     .secret{
