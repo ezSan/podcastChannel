@@ -1,9 +1,10 @@
 .final {
   margin-top: 2%;
-  h2 {
-    margin-left: 18%;
+  .temas {
+    margin-left: 9.3%;
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
+    font-size: 48px ;
   }
 }
 
@@ -15,19 +16,7 @@
   margin-top: 2%;
 }
 
-.caja1 {
-  width: 18.1%;
-  height: 3.3%;
-}
-.caja2 {
-  width: 18.1%;
-  height: 3.3%;
-}
-.caja3 {
-  width: 18.1%;
-  height: 3.3%;
-}
-.caja4 {
+.caja {
   width: 18.1%;
   height: 3.3%;
 }
@@ -36,30 +25,46 @@
   margin-top: 7.9%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .final {
     display: flex;
     flex-direction: column;
-  }
+    justify-content: flex-start;
+    align-items: center;
+    .temas{
+      text-align: center; 
+      width: 100%;
+      margin-left: 0;
+      margin-right: auto;  }}
+  
   .iconos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    align-content: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
-
-  .caja1,
-  .caja2,
-  .caja3,
-  .caja4 {
-    margin: 2%;
-        p {
-        font-size: small;
-         text-align: center;
-         .icon{
-             width: auto;
-         }
-    }
+  .caja {
+    
+    margin-bottom: 7%;
+  }
+  .caja p {
+    width: 100%;
+    font-size: 24PX;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.6%;
+    text-align: justify;
+   
+      }
+  .icons{
+    margin-left: auto;
+    margin-right: auto;
+    width: 32.5%;
+    height: 1.9%;
+    text-align: center;
   }
 }

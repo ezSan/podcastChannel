@@ -264,14 +264,33 @@ p {
     margin-right: auto;
   }
   .where {
-    width: 94%;
+    width: 100%;
   }
   .where h2 {
     font-size: xx-large;
     margin-bottom: 1%;
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
   }
   .where p {
-    font-size: medium;
+    width: 90%;
+    font-size: 14px;
+    margin: auto;
+    line-height: 22px;
+    margin-bottom: 4%;
+  }
+  .where .textofinal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -359,10 +378,11 @@ p {
   margin-top: 2%;
 }
 
-.final h2 {
-  margin-left: 18%;
+.final .temas {
+  margin-left: 9.3%;
   margin-top: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 3%;
+  font-size: 48px;
 }
 
 .iconos {
@@ -377,22 +397,7 @@ p {
   margin-top: 2%;
 }
 
-.caja1 {
-  width: 18.1%;
-  height: 3.3%;
-}
-
-.caja2 {
-  width: 18.1%;
-  height: 3.3%;
-}
-
-.caja3 {
-  width: 18.1%;
-  height: 3.3%;
-}
-
-.caja4 {
+.caja {
   width: 18.1%;
   height: 3.3%;
 }
@@ -401,7 +406,7 @@ p {
   margin-top: 7.9%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .final {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -410,6 +415,18 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .final .temas {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: auto;
   }
   .iconos {
     display: -webkit-box;
@@ -425,26 +442,29 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: auto;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
-  .caja1,
-  .caja2,
-  .caja3,
-  .caja4 {
-    margin: 2%;
+  .caja {
+    margin-bottom: 7%;
   }
-  .caja1 p,
-  .caja2 p,
-  .caja3 p,
-  .caja4 p {
-    font-size: small;
+  .caja p {
+    width: 100%;
+    font-size: 24PX;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.6%;
+    text-align: justify;
+  }
+  .icons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 32.5%;
+    height: 1.9%;
     text-align: center;
-  }
-  .caja1 p .icon,
-  .caja2 p .icon,
-  .caja3 p .icon,
-  .caja4 p .icon {
-    width: auto;
   }
 }
 
@@ -483,6 +503,33 @@ p {
   margin-bottom: 3%;
 }
 
+@media (max-width: 320px) {
+  .news {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    min-height: 280px;
+    -webkit-clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+  }
+  h2 {
+    margin-top: 1%;
+    font-size: 36px;
+    width: 60%;
+    text-align: center;
+  }
+  .conoce {
+    margin-bottom: 0%;
+  }
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -516,6 +563,31 @@ footer p {
 .icons {
   margin: 1%;
   margin-right: -1%;
+}
+
+@media screen and (max-width: 320px) {
+  footer {
+    min-height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footicon {
+    width: 70.9%;
+  }
+  p {
+    width: 70.9%;
+  }
 }
 
 @media screen and (max-width: 768px) {

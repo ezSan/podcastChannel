@@ -24,3 +24,22 @@
     margin-bottom: 3%;
 }
 
+@media (max-width:320px){
+    .news{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height:280px ;
+        clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    h2{
+        margin-top: 1%;
+        font-size: 36px;
+        width: 60%;
+        text-align: center;
+    }
+    .conoce{
+        margin-bottom: 0%;
+    }
+}

@@ -34,15 +34,29 @@
         margin-right: auto;
     }
     .where{
-        width: 94%;
+        width: 100%;
         h2{
           font-size: xx-large;
           margin-bottom: 1%;
+          width: 90%;
+          text-align: justify;
+          margin-left: 5%;
          }
          p{
-             font-size: medium;
+             width: 90%;
+             font-size: 14px;
+             margin: auto;
+             line-height: 22px;
+             margin-bottom: 4%;
+             
          }
 
+         .textofinal{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            }
+     
     }
 }
 
