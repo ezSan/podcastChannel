@@ -10,17 +10,15 @@ footer {
   }
 }
 
-.footicon {
-  width: 30%;
-  display: flex;
+
+.footicon{
+  display:flex;
   justify-content: space-between;
-  margin-top: 1%;
-  margin-bottom: 0.8%;
+ 
 }
 
-.icons {
-  margin: 1%;
-  margin-right: -1%;
+.footicon a .icons{
+  width: 20%;
 }
 
 @media screen and(max-width:320px) {

@@ -248,11 +248,16 @@ p {
           align-items: flex-start;
 }
 
+.textofinal {
+  width: 100%;
+}
+
 .where .textofinal p {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 16px;
+  font-size: 36px;
   width: 50%;
   margin-left: 42px;
+  text-indent: 15px;
 }
 
 .where h2 {
@@ -586,20 +591,16 @@ footer p {
 }
 
 .footicon {
-  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 1%;
-  margin-bottom: 0.8%;
 }
 
-.icons {
-  margin: 1%;
-  margin-right: -1%;
+.footicon a .icons {
+  width: 20%;
 }
 
 @media screen and (max-width: 320px) {
