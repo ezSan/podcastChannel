@@ -1,68 +1,77 @@
-
-.third{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.third {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-.celular{
-    width: 100%;
-    margin-top: -10%;
-    z-index: 2;
+.celular {
+  width: 100%;
+  z-index: 2;
 }
 
 .where{
-    width: 45%;
-    font-size: 1.1em;
-}   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
+.where .textofinal p{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    width: 50%;
+    margin-left: 42px;
+}
 
-@media (max-width:393px){
-    .third{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }    }
-    .celular{
-        width: 95%;
-        margin-top:-15%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .secret{
-        width: 100%;
-    }
-    .where{
-        width: 100%;
-        h2{
-          font-size: xx-large;
-          margin-bottom: 1%;
-          width: 90%;
-          text-align: justify;
-          margin-left: 5%;
-         }
-         p{
-             width: 90%;
-             font-size: 14px;
-             margin: auto;
-             line-height: 22px;
-             margin-bottom: 4%;
-             
-         }
+.where h2{
+    width: 27.7%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+}
 
-         .textofinal{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            }
-     
-    }
+@media (max-width: 393px) {
+  .third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.celular {
+  width: 95%;
+  margin-top: -12%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.secret {
+  width: 100%;
+}
+.where {
+  width: 100%;
+  h2 {
+    font-size: xx-large;
+    margin-bottom: 1%;
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
+  }
+  p {
+    width: 90%;
+    font-size: 14px;
+    margin: auto;
+    line-height: 22px;
+    margin-bottom: 4%;
+  }
 
+  .textofinal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 
-@media (max-width:320px){
-    .secret{
-        width: 95%;
-        margin-top: -15%;
+@media (max-width: 320px) {
+  .secret {
+    width: 95%;
+    margin-top: -15%;
     }
 }

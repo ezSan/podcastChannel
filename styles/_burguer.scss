@@ -10,15 +10,14 @@
     margin-top: 0%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color: white transparent;
+    align-items:center;
+    background-color:white transparent;
     // z-index: 3;
-    
   }
 
   .logo {
     width: 5%;
-    margin-left: -12%;
+    
   }
 
   header nav .menu ul {
@@ -33,7 +32,6 @@
     height: 0px;
     display: flex;
     flex-direction: column;
-    
   }
 
   header nav .menu ul li {
@@ -54,7 +52,8 @@
   }
   header nav .menu {
     padding-top: 3px;
-    float: right;
+    float: left;
+    margin-left: 80%;
   }
   /*checkbox transparente y en primer plano*/
   header nav .menu input {
@@ -75,7 +74,6 @@
     background: #000;
     z-index: 1;
     transform-origin: 3px 0px;
-    
   }
   header nav .menu span:first-child {
     transform-origin: 0% 0%;
@@ -97,24 +95,29 @@
   }
 }
 
-
 @media screen and(max-width:320px) {
   header {
     position: fixed;
-    top: 0;
+    top: 0%;
     left: 0;
     width: 100%;
-    height: 5%;
+    height: 7%;
     margin-bottom: 7%;
     margin-top: 0%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: white transparent;
     z-index: 3;
-    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    }
+  
+  
+  .logo {
+    width: 26px;
+    height: 26px;
   }
-  nav{
-    width: 100%;
-      }
+
+  nav {
+    width: 80%;
+  }
 }
