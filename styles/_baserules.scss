@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box; 
-    font-family: 'IBM Plex Mono', monospace;
-    font-family: 'IBM Plex Sans', sans-serif; ;
+    // font-family: 'IBM Plex Mono', monospace;
+    // font-family: 'IBM Plex Sans', sans-serif; ;
         }
 
         
@@ -33,3 +33,6 @@ body{
     width: 100%;
 }
 
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+}

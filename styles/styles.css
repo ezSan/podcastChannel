@@ -3,8 +3,6 @@
   padding: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'IBM Plex Mono', monospace;
-  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 input {
@@ -31,6 +29,10 @@ main {
 
 body {
   width: 100%;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 header {
@@ -233,7 +235,7 @@ p {
 .celular {
   width: 100%;
   margin-top: -10%;
-  z-index: 12;
+  z-index: 2;
 }
 
 .where {
@@ -404,7 +406,6 @@ p {
 }
 
 .caja {
-  width: 18.1%;
   height: 3.3%;
 }
 
@@ -456,21 +457,32 @@ p {
   }
   .caja {
     margin-bottom: 7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .caja p {
     width: 100%;
-    font-size: 24PX;
+    font-size: 22PX;
     margin-left: auto;
     margin-right: auto;
     height: 0.6%;
     text-align: justify;
+    font-family: 'IBM Plex Sans', sans-serif;
   }
-  .icons {
-    margin-left: auto;
-    margin-right: auto;
-    width: 32.5%;
-    height: 1.9%;
-    text-align: center;
+  .icon {
+    width: 104px;
+    height: 104px;
   }
 }
 
@@ -552,6 +564,7 @@ footer {
 footer p {
   width: 70%;
   font-size: large;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .footicon {
@@ -573,7 +586,7 @@ footer p {
 
 @media screen and (max-width: 320px) {
   footer {
-    min-height: 80px;
+    min-height: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -589,10 +602,24 @@ footer p {
             justify-content: center;
   }
   .footicon {
-    width: 70.9%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: 4%;
   }
-  p {
-    width: 70.9%;
+  .icons {
+    width: 10%;
+    margin: 5%;
+  }
+  .pfooter {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: medium;
+    margin-left: 20%;
   }
 }
 
@@ -603,7 +630,6 @@ footer p {
     left: 0;
     width: 100%;
     height: 10%;
-    margin-bottom: 5%;
     margin-top: 0%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -614,7 +640,6 @@ footer p {
         -ms-flex-align: center;
             align-items: center;
     background-color: white transparent;
-    z-index: 3;
   }
   .logo {
     width: 5%;
@@ -699,6 +724,31 @@ footer p {
   header nav .menu input:checked ~ span:nth-last-child(2) {
     -webkit-transform: rotate(-45deg) translate(1px, 0px);
             transform: rotate(-45deg) translate(1px, 0px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    margin-bottom: 7%;
+    margin-top: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white transparent;
+    z-index: 3;
+  }
+  nav {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

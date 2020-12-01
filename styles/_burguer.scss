@@ -7,13 +7,12 @@
     left: 0;
     width: 100%;
     height: 10%;
-    margin-bottom: 5%;
     margin-top: 0%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white transparent;
-    z-index: 3;
+    // z-index: 3;
     
   }
 
@@ -96,4 +95,26 @@
   header nav .menu input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(1px, 0px);
   }
+}
+
+
+@media screen and(max-width:320px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    margin-bottom: 7%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white transparent;
+    z-index: 3;
+    
+  }
+  nav{
+    width: 100%;
+      }
 }
