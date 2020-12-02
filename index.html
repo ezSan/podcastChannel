@@ -8,10 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
-    <title>PodcastChannel</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,10 +22,10 @@
                 <span></span>
                 <span></span>
             <ul>
-                <li><a href="#">EPISODIOS</a></li>
-                <li><a href="#">NOSOTROS</a></li>
+                <li><a href="#episodes">EPISODIOS</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
                 <li><a href="#entrevistas">ENTREVISTAS</a></li>
-                <li><a href="#">TÓPICOS</a></li>
+                <li><a href="#topicos">TÓPICOS</a></li>
             </ul>
             </div>
         </nav>
@@ -39,13 +36,13 @@
     <main>
         <section class="first">
             <h1>Hello <span class="mundo">world</span> pale blue dot<span class="punto">.</span></h1>
-            <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <p class="portal">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
             <input class="firstbtn" type="button" value="CONOCE MÁS">
         </section>
         <section class="second">
 
             <h2>Episodios</h2>
-
+        <a name="episodes"></a>    
             <article class="media">
                 <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%"
                     height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -63,21 +60,21 @@
 
         </section>
         <section class="third">
-            <a name="entrevistas"></a>
+            <a name="nosotros"></a>
             <div class="celular">
             <img class="secret" src="./assets/phone.png" alt="foto">
             </div>
             <article class="where">
                 <h2>De dónde venimos</h2>
                 <div class="textofinal">
-                <p>Our posturings, our imagined self-importance, the desolucion that we have some privileges position in the universe, are challenged by this point of the pale light.</p>
-            
-                <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                <p class="par">Our posturings, our imagined self-importance, the desolucion that we have some privileges position in the universe, are challenged by this point of the pale light.</p>
+                <p class="par">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
                 </p>
                 </div>
             </article>
         </section>
         <section class="fourth">
+            <a name="entrevistas"></a>
             <h2 class="guests">Invitadas/os estelares</h2>
             <article class="images">
                 <div class="primeras">
@@ -94,6 +91,7 @@
             </article>
         </section>
         <section class="final">
+            <a name="topicos"></a>
             <h2 class="temas">Algunos de nuestros temas</h2>
             <article class="iconos">
                 <div class="caja">

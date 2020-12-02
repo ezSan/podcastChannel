@@ -1,8 +1,14 @@
 .third {
   display: flex;
   justify-content: center;
+
   width: 100%;
 }
+
+.secret{
+  width: 31.8%;
+  max-height: 860px;
+  }
 
 .celular {
   width: 100%;
@@ -17,15 +23,15 @@
 }
 
 .textofinal{
-  width: 100%;
+  margin-left: 5%;
 }
 
-.where .textofinal p{
+.where .textofinal .par{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 36px;
-    width: 50%;
-    margin-left: 42px;
-    text-indent: 15px;
+    font-size: 16px;
+    width: 70%;
+    // margin-right: 20%;
+    line-height: 24px;
     
 }
 
@@ -44,7 +50,7 @@
 }
 .celular {
   width: 95%;
-  margin-top: -12%;
+  margin-top: -2%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -60,7 +66,7 @@
     text-align: justify;
     margin-left: 5%;
   }
-  p {
+   .where .textofinal p {
     width: 90%;
     font-size: 14px;
     margin: auto;
@@ -80,4 +86,46 @@
     width: 95%;
     margin-top: -15%;
     }
-}
+    .third {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  .celular {
+    width: 95%;
+    margin-top: -12%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .secret {
+    width: 100%;
+  }
+  .where {
+    width: 100%;
+    h2 {
+      font-size: xx-large;
+      margin-bottom: 1%;
+      width: 90%;
+      text-align: justify;
+      margin-left: 5%;
+    }
+     .where .textofinal .par{
+      width: 50%;
+      font-size: 12px ;
+      margin: auto;
+      line-height: 22px;
+      margin-bottom: 4%;
+      margin-left: 1%;
+      margin-right: auto;
+    }
+  
+    .textofinal {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 10%;
+      width: 90%;
+    }
+  }
+
