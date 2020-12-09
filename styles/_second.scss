@@ -1,29 +1,3 @@
-
-
-.second h2{
-    text-align: start;
-    margin-left: 15%;
-    margin-top: 0%;
-    margin-bottom: 3%;
-    display: inline-block;
-    color: white;
-    font-size: 48px;
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.media{
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10%;
-    row-gap: 10%;
-    
-        
-}
-
 .second{
     display: flex;
     flex-direction: column;
@@ -34,6 +8,41 @@
     min-height: 1200px;
         
 }
+
+.second .artmedia{
+    width: 100%;
+}
+.media{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+iframe{
+    width:100%; 
+    height: 232px;
+    border: none;
+    background-color: transparent;
+
+}
+     
+
+
+#secondtitle{
+    text-align: start;
+    margin-left: 15%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 
 @media (max-width:768px){
     .second{
