@@ -27,6 +27,13 @@
     padding: 0.9%;
 }   
 
+#invisible2{
+    color: transparent;
+    font-size: 0px;
+    display: none;
+    color: white;
+}
+
 @media (max-width:768px){
     .fourth{
         display: flex;

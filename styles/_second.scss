@@ -43,6 +43,11 @@ iframe{
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+#invisible0{
+    display: none;
+    font-size: 0;
+    color: transparent;
+}
 
 @media (max-width:768px){
     .second{

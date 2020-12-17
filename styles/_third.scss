@@ -41,6 +41,12 @@
     font-size: 48px;
 }
 
+#invisible{
+  color: transparent; 
+  font-size: 0px;
+
+}
+
 @media (max-width: 393px) {
   .third {
     display: flex;

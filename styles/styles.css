@@ -211,6 +211,12 @@ iframe {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+#invisible0 {
+  display: none;
+  font-size: 0;
+  color: transparent;
+}
+
 @media (max-width: 768px) {
   .second {
     -webkit-clip-path: polygon(0 6%, 100% 2%, 100% 94%, 0 98%);
@@ -278,6 +284,11 @@ iframe {
   width: 27.7%;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 48px;
+}
+
+#invisible {
+  color: transparent;
+  font-size: 0px;
 }
 
 @media (max-width: 393px) {
@@ -442,6 +453,13 @@ iframe {
   padding: 0.9%;
 }
 
+#invisible2 {
+  color: transparent;
+  font-size: 0px;
+  display: none;
+  color: white;
+}
+
 @media (max-width: 768px) {
   .fourth {
     display: -webkit-box;
@@ -512,6 +530,11 @@ iframe {
 
 .final .div {
   margin-top: 7.9%;
+}
+
+#invisible3 {
+  color: white;
+  font-size: 0px;
 }
 
 @media (max-width: 320px) {
