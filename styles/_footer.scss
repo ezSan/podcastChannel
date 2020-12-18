@@ -12,8 +12,9 @@ footer {
 
 
 .footicon{
+  width: 50%;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
  
 }
 
@@ -31,7 +32,7 @@ footer {
   }
 
   .footicon {
-    width: 100%;
+    width: 90%;
     display: flex;
     margin-right: auto;
     margin-left: 10%;

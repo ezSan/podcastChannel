@@ -98,7 +98,7 @@ header nav ul li:hover {
 header nav ul li a {
   position: relative;
   text-decoration: none;
-  color: #00F3BB 100%;
+  color: #060A24;
   line-height: 28px;
   display: block;
 }
@@ -692,12 +692,13 @@ footer p {
 }
 
 .footicon {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .footicon a .icons {
@@ -722,7 +723,7 @@ footer p {
             justify-content: center;
   }
   .footicon {
-    width: 100%;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -762,7 +763,6 @@ footer p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: white transparent;
   }
   .logo {
     width: 5%;
@@ -859,7 +859,6 @@ footer p {
     height: 7%;
     margin-bottom: 7%;
     margin-top: 0%;
-    background-color: white transparent;
     z-index: 3;
     display: -webkit-box;
     display: -ms-flexbox;
