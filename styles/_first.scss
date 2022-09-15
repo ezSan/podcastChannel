@@ -10,6 +10,15 @@
       text-decoration: line-through;
     }
   }
+
+  input{
+    background-color: #00F3BB;
+    border: #00F3BB;
+    height: 2.5em;
+    margin-top: 3%;
+    padding: 1%;
+    
+  }
 }
 
 .punto {
@@ -28,7 +37,6 @@
     flex-direction: column;
     justify-content: space-around;
     margin-top: 8%;
-  }
     h1 {
       width: 90%;
       }
@@ -37,8 +45,11 @@
     }  
 
     input{
-      width: 90%;
+      width: 80%;
+      
     }
+  }
+
 
 
 }

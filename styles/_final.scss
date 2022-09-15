@@ -1,23 +1,36 @@
 .final {
-  margin-top: 2%;
-  .temas {
-    margin-left: 9.3%;
-    margin-top: 1%;
-    margin-bottom: 3%;
-    font-size: 48px ;
-  }
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+ 
 }
 
 .iconos {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
+  padding: 2%
+  
+  ;
 }
 
 .caja {
     height: 3.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.centeredIconTitle{
+  margin-top: 5%;
+  
+  text-align: center;
+  
+  
 }
 
 .final .div {
@@ -28,6 +41,14 @@
  color: white;
  font-size: 0px;
 }
+
+
+.newsTitleSize{
+  font-size: 0.5em;
+}
+
+
+
 
 @media (max-width: 320px) {
   .final {
@@ -64,7 +85,7 @@
     margin-left: auto;
     margin-right: auto;
     height: 0.6%;
-    text-align: justify;
+    text-align: center;
     font-family: 'IBM Plex Sans', sans-serif;
       
       }

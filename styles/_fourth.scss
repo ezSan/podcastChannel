@@ -7,8 +7,10 @@
     }
 
 .iconos{
-    width: 100%;
+    width: 90%;
     display: flex;
+    margin-right:5% ;
+    margin-left:5% ;
     justify-content: space-around;
     
 }
@@ -22,7 +24,9 @@
 }
 
 .guests{
-    margin-left: 18%;
+    text-align: center;
+   
+    /* margin-left: 18%; */
     font-size: 3em;
     padding: 0.9%;
 }   
@@ -43,6 +47,7 @@
         h2{
           font-size: xx-large;
           margin-left: 3%;
+          align-self: center;
         }   
     }
     .primeras {
