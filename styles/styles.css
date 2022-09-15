@@ -696,8 +696,6 @@ footer p {
     width: 80%;
   }
 }
-@media screen and (max-width: 1440px) {
-  .check {
-    display: none;
-  }
+.check {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
